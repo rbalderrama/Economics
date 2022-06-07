@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@import "../colores";
+
+.tituloRegistro {
+    padding: 25px;
+    font-family: "quicksand";
+    text-align: center;
+
+    .spanRegistro {
+        color: $rojo;
+        font-family: 'Cinzel', serif;
+    }
+}
+
+
+.mainRegistro {
+    box-shadow: 2px 2px 22px #999;
+}
+
+.p__registro {
+    padding: 10px;
+}
+
+.containerRegistro {
+    background-color: $grisfondo;
+    color: $blanco;
+    font-family: "Quicksand";
+}
+
+.formRegistro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formRegistro .p__modificado {
+    grid-column: 1 / 3;
+}
+
+.formRegistro .p__modificado .botonEnviar:hover,
+.formRegistro .p__modificado .botonEnviar:focus {
+    background: brown;
+    color: $negro;
+}
+
+
+.formRegistro .p__registro input,
+.formRegistro .p__registro label,
+.formRegistro .p__registro button {
+    width: 100%;
+    padding: 7px;
+    background: none;
+    border: none;
+    outline: none;
+    color: $blanco;
+}
+
+.formRegistro .p__registro textarea {
+    width: 100%;
+    color: black;
+}
+
+.formRegistro .p__registro button {
+    border: 0;
+    background: $rojo;
+}
+
+.formRegistro .p__registro .bordeBajo {
+    border-bottom: 1px solid $blanco;
+}
+
+
+.infoRegistro {
+    background-color: $negro;
+    color: $blanco;
+    padding-top: 10px;
+
+    .spanInfo {
+        color: $rojo;
+    }
+}
+
+.ul__Registro {
+    padding: 10px;
+}
+
+@media screen and(max-width: 476px) {
+    .formRegistro {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .formRegistro .p__modificado {
+        grid-column: 1 / 1;
+    }
+
+}

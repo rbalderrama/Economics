@@ -1,0 +1,664 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.c-rojo {
+    color: #ff0000;
+}
+
+.c-rojoOscuro {
+    color: #bf0000;
+}
+
+.c-bordo {
+    color: #800000;
+}
+
+.c-bordoOscuro {
+    color: #400000;
+}
+
+.c-negro {
+    color: black;
+}
+
+.c__white {
+    color: white;
+}
+
+.bg-rojo {
+    background-color: #a80808;
+}
+
+.bg-bordo {
+    background-color: #240606;
+}
+
+.bg-oscuro {
+    background-color: #000;
+}
+
+.bg-gradiente {
+    background: #d0cdcd;
+    background: linear-gradient(73deg, #d0cdcd 9%, #f1e8e8 100%);
+}
+
+.bg-asidess {
+    background: #626265;
+    background: linear-gradient(0deg, #626265 0%, #2a2a2a 95%);
+}
+
+/*Paleta colores */
+.bg-color1 {
+    background-color: #000000;
+}
+
+.bg-color2 {
+    background-color: #0f1620;
+}
+
+.bg-color3 {
+    background-color: #516065;
+}
+
+.bg-color4 {
+    background-color: #a4aead;
+}
+
+.bg-color5 {
+    background-color: #ebf4f6;
+}
+
+.bg-color6 {
+    background: linear-gradient(to right, #536976, #292e49);
+}
+
+.tituloRegistro {
+    padding: 25px;
+    font-family: "quicksand";
+    text-align: center;
+}
+
+.tituloRegistro .spanRegistro {
+    color: rgba(155, 22, 7, 0.733);
+    font-family: 'Cinzel', serif;
+}
+
+.mainRegistro {
+    box-shadow: 2px 2px 22px #999;
+}
+
+.p__registro {
+    padding: 10px;
+}
+
+.containerRegistro {
+    background-color: #181818;
+    color: #fff;
+    font-family: "Quicksand";
+}
+
+.formRegistro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formRegistro .p__modificado {
+    grid-column: 1 / 3;
+}
+
+.formRegistro .p__modificado .botonEnviar:hover,
+.formRegistro .p__modificado .botonEnviar:focus {
+    background: brown;
+    color: #000;
+}
+
+.formRegistro .p__registro input,
+.formRegistro .p__registro label,
+.formRegistro .p__registro button {
+    width: 100%;
+    padding: 7px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.formRegistro .p__registro textarea {
+    width: 100%;
+    color: black;
+}
+
+.formRegistro .p__registro button {
+    border: 0;
+    background: rgba(155, 22, 7, 0.733);
+}
+
+.formRegistro .p__registro .bordeBajo {
+    border-bottom: 1px solid #fff;
+}
+
+.infoRegistro {
+    background-color: #000;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.infoRegistro .spanInfo {
+    color: rgba(155, 22, 7, 0.733);
+}
+
+.ul__Registro {
+    padding: 10px;
+}
+
+@media screen and (max-width: 476px) {
+    .formRegistro {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .formRegistro .p__modificado {
+        grid-column: 1 / 1;
+    }
+}
+
+.c-rojo {
+    color: #ff0000;
+}
+
+.c-rojoOscuro {
+    color: #bf0000;
+}
+
+.c-bordo {
+    color: #800000;
+}
+
+.c-bordoOscuro {
+    color: #400000;
+}
+
+.c-negro {
+    color: black;
+}
+
+.c__white {
+    color: white;
+}
+
+.bg-rojo {
+    background-color: #a80808;
+}
+
+.bg-bordo {
+    background-color: #240606;
+}
+
+.bg-oscuro {
+    background-color: #000;
+}
+
+.bg-gradiente {
+    background: #d0cdcd;
+    background: linear-gradient(73deg, #d0cdcd 9%, #f1e8e8 100%);
+}
+
+.bg-asidess {
+    background: #626265;
+    background: linear-gradient(0deg, #626265 0%, #2a2a2a 95%);
+}
+
+/*Paleta colores */
+.bg-color1 {
+    background-color: #000000;
+}
+
+.bg-color2 {
+    background-color: #0f1620;
+}
+
+.bg-color3 {
+    background-color: #516065;
+}
+
+.bg-color4 {
+    background-color: #a4aead;
+}
+
+.bg-color5 {
+    background-color: #ebf4f6;
+}
+
+.bg-color6 {
+    background: linear-gradient(to right, #536976, #292e49);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Nav */
+.fuente__nav {
+    font-family: "Quicksand";
+    font-size: 1.3rem;
+}
+
+.logito {
+    font-size: 2rem;
+    font-family: 'Cinzel', serif;
+    margin-left: 0.5em;
+}
+
+.bg-index1 {
+    background: #161515;
+    background: linear-gradient(231deg, #161515 9%, #121212 100%);
+}
+
+/* Section */
+.fuente__quicksand {
+    font-family: "Quicksand";
+}
+
+.fuente__oscura {
+    font-weight: bold;
+}
+
+.intro {
+    margin: 1.8em;
+}
+
+.finPagina {
+    border-left: 3px double black;
+    border-right: 3px double black;
+    border-top: 10px solid black;
+    padding: 3.2rem;
+    border-radius: 1em;
+    font-size: 1.4em;
+}
+
+.subtituloIndex {
+    padding: 0.7em;
+    text-align: center;
+    color: #fff;
+    border-bottom: white;
+}
+
+.cartas__index {
+    margin-top: 2.4em;
+}
+
+.card1 {
+    width: 100%;
+    max-width: 18em;
+    height: 230px;
+}
+
+.cartaM {
+    margin-bottom: 4em;
+}
+
+.cartas__index {
+    box-shadow: 0 0.1em 0.1em 0 white;
+    transition: all 2s ease;
+}
+
+.cartas__index:hover {
+    box-shadow: 5px 1px 3px white;
+    transform: translateY(-3%);
+}
+
+.btn__cards:hover {
+    background-color: #252222;
+    color: black;
+}
+
+html,
+body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.derRev {
+    font-size: 1.3em;
+}
+
+.tituloContacto {
+    color: #fff;
+    padding: 1.8rem;
+    text-align: center;
+    font-family: "quicksand";
+}
+
+.formContacto {
+    line-height: 2.5em;
+}
+
+.spanContacto {
+    color: #490c0b;
+}
+
+.margenesP,
+.textareasP {
+    margin: 0.6em;
+    font-family: "quicksand";
+}
+
+.textareasP {
+    width: 90%;
+    height: 10em;
+    border-radius: 1.3em;
+}
+
+.boton__contacto {
+    background-color: white;
+    font-weight: bold;
+    transition: all 500ms ease;
+}
+
+.boton__contacto:hover {
+    background-color: black;
+    color: white;
+}
+
+.formulario__contacto {
+    border-top: 0.6rem solid black;
+    border-left: 0.2rem double black;
+    border-right: 0.2rem double black;
+    border-bottom: 0.1rem solid black;
+    margin: 21em;
+    padding: 2.1em;
+    background-color: #273850;
+}
+
+.formulario__contacto .input__form input,
+.formulario__contacto .input__form label {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.formulario__contacto .input__form input {
+    border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 576px) {
+    .formulario__contacto {
+        border-top: 0.6em solid black;
+        border-left: 0.2em double black;
+        border-right: 0.2em double black;
+        border-bottom: 0.1em solid black;
+        margin: 3em;
+        padding: 2.1em;
+    }
+
+    .formulario__contacto .input__form input,
+    .formulario__contacto .input__form label {
+        background: none;
+        border: none;
+        outline: none;
+        color: white;
+    }
+
+    .formulario__contacto .input__form input {
+        border-bottom: 1px solid white;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .formulario__contacto {
+        border-top: 0.6em solid black;
+        border-left: 0.2em double black;
+        border-right: 0.2em double black;
+        border-bottom: 0.1em solid black;
+        margin: 10.6em;
+        padding: 2.1em;
+    }
+
+    .formulario__contacto .input__form input,
+    .formulario__contacto .input__form label {
+        background: none;
+        border: none;
+        outline: none;
+        color: white;
+    }
+
+    .formulario__contacto .input__form input {
+        border-bottom: 1px solid white;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .formulario__contacto {
+        border-top: 0.6rem solid black;
+        border-left: 0.2rem double black;
+        border-right: 0.2rem double black;
+        border-bottom: 0.1rem solid black;
+        margin: 21em;
+        padding: 2.1em;
+    }
+
+    .formulario__contacto .input__form input,
+    .formulario__contacto .input__form label {
+        background: none;
+        border: none;
+        outline: none;
+        color: white;
+    }
+
+    .formulario__contacto .input__form input {
+        border-bottom: 1px solid white;
+    }
+}
+
+.subtituloAutores {
+    margin-top: 2em;
+    margin-left: 0.4em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btnn {
+    margin-left: 30px;
+    font-size: 1em;
+}
+
+.imgAutores {
+    width: 100%;
+    max-width: 35em;
+}
+
+.card__autorImg {
+    width: 100%;
+    height: 16em;
+    border-radius: 15px;
+    max-width: 17em;
+}
+
+.card__autor {
+    max-width: 85%;
+    transition: all 2200ms ease;
+}
+
+.card__autor:hover {
+    max-width: 100%;
+}
+
+.biografias {
+    text-decoration: none;
+    color: #0c1268;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.breve {
+    color: white;
+}
+
+.letra {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.imagenAdam {
+    margin-left: 10px;
+}
+
+.aside__autores {
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 473px) {
+    .margenes__autores {
+        margin-left: 9vh;
+    }
+}
+
+.imagenDavid {
+    margin-left: 10px;
+}
+
+.medidasDavid {
+    width: 350px;
+}
+
+.imagenMarx {
+    margin-left: 10px;
+}
+
+.imagenKeynes {
+    margin-left: 10px;
+}
+
+.imagenKeyness {
+    width: 350px;
+}
+
+.imagenHayek {
+    margin-left: 10px;
+}
+
+.imagenMilton {
+    margin-left: 10px;
+}
+
+.esclav {
+    width: 100%;
+    max-width: 25em;
+}
+
+.edadM {
+    max-width: 25em;
+    width: 100%;
+}
+
+.mercante {
+    width: 100%;
+    max-width: 30em;
+}
+
+.eClasica {
+    width: 100%;
+    max-width: 25em;
+}
+
+.myk {
+    width: 100%;
+    max-width: 25em;
+}
+
+.globalNeo {
+    width: 100%;
+    max-width: 25em;
+}
+
+.fuente__quick {
+    font-family: "quicksand";
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.pillS {
+    color: black;
+    font-family: "Quicksand";
+}
+
+.nav-pills>.active {
+    background-color: #35464e !important;
+}
+
+.migas {
+    margin: 1em;
+}
+
+.contenedorGeneral {
+    background-color: #f6f9fa;
+    font-family: "Quicksand";
+}
+
+.contenido__autores {
+    margin-top: 27px;
+    margin-left: 10px;
+    padding: 10px;
+    border-left: 3px double black;
+    border-right: 3px double black;
+    border-top: 10px solid black;
+    background: #0f1620;
+}
+
+.aside__derecha {
+    color: white;
+    background-color: #243244;
+}
+
+.aside__autores>.active {
+    background-color: #3f4b4e;
+}
+
+.titulos__h3 {
+    font-size: 1.5em;
+    margin: 1em 0 1em 0;
+    font-weight: bold;
+}
+
+.imagenes__autores {
+    border-left: 1px double black;
+    border-right: 1px double black;
+    background-color: #0f1620;
+}
+
+.p__asides {
+    margin-top: 3em;
+    border-left: 1px dashed #636262;
+    border-right: 1px dashed #636262;
+}
+
+.foto__aside {
+    margin-top: 6em;
+    width: 25em;
+}
+
+@media screen and (min-width: 992px) {
+    .aside__abajo {
+        margin-top: 5em;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .aside__abajo,
+    .titulo__h4 {
+        margin-top: 2.2em;
+    }
+
+    .p__asides {
+        margin-top: 1.3em;
+    }
+}
+
+/*# sourceMappingURL=estilos.css.map */

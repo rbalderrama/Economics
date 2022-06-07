@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Nav */
+
+.fuente__nav {
+    font-family: "Quicksand";
+    font-size: 1.3rem;
+}
+.logito {
+    font-size: 2rem;
+    font-family: 'Cinzel', serif;
+    margin-left: 0.5em;
+}
+.bg-index1 {
+    background: rgb(22,21,21);
+background: linear-gradient(231deg, rgba(22,21,21,1) 9%, rgba(18,18,18,1) 100%);
+}
+
+/* Section */    
+
+.fuente__quicksand {
+    font-family: "Quicksand";
+}
+.fuente__oscura {
+    font-weight: bold;
+}
+.intro {
+    margin: 1.8em;
+}
+.finPagina {
+    border-left: 3px double black;
+    border-right: 3px double black;
+    border-top: 10px solid black;
+    padding: 3.2rem;
+    border-radius: 1em;
+    font-size: 1.4em;
+}
+.subtituloIndex {
+    padding: 0.7em;
+    text-align: center;
+    color: $blanco;
+    border-bottom:  white;
+}               
+
+.cartas__index {
+    margin-top: 2.4em;
+    
+}
+.card1 {
+    width: 100%;
+    max-width: 18em;
+    height: 230px;
+    
+}
+.cartaM {
+    margin-bottom: 4em;
+}
+
+.cartas__index {
+box-shadow: 0 0.1em 0.1em 0 white;
+transition: all 2s ease;
+}
+
+.cartas__index:hover {
+box-shadow: 5px 1px 3px white;
+transform: translateY(-3%);
+}
+
+.btn__cards:hover {
+    background-color: rgb(37, 34, 34);
+    color: black;
+}
+    html, body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+.derRev {
+    font-size: 1.3em;
+}

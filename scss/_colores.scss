@@ -1,0 +1,52 @@
+$azul:#000030;
+$grisfondo: #181818;
+$negro: #000;
+$blanco: #fff;
+$rojo: rgba(155, 22, 7, 0.733);
+
+
+.c-rojo {
+    color: #ff0000;
+}
+.c-rojoOscuro {
+    color: #bf0000;
+}
+.c-bordo {
+    color: #800000;
+}
+.c-bordoOscuro {
+    color:  #400000;
+}
+.c-negro {
+    color: black;
+}
+.c__white {
+    color: white;
+}
+.bg-rojo {
+    background-color: #a80808;
+}
+.bg-bordo {
+    background-color: #240606;
+}
+
+.bg-oscuro {
+    background-color: $negro;
+}
+.bg-gradiente {
+    background: rgb(208,205,205);
+    background: linear-gradient(73deg, rgba(208,205,205,1) 9%, rgba(241,232,232,1) 100%);
+}
+.bg-asidess {
+    background: rgb(98,98,101);
+    background: linear-gradient(0deg, rgba(98,98,101,1) 0%, rgba(42,42,42,1) 95%); }
+
+
+/*Paleta colores */
+.bg-color1 {background-color: #000000;}
+.bg-color2 {background-color: #0f1620;}
+.bg-color3 {background-color: #516065;}
+.bg-color4 {background-color: #a4aead;}
+.bg-color5 {background-color: #ebf4f6;}
+.bg-color6 { background: linear-gradient(to right, #536976, #292e49);
+}

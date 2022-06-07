@@ -1,0 +1,129 @@
+.tituloContacto {
+    color: $blanco;
+    padding: 1.8rem;
+    text-align: center;
+    font-family: "quicksand";
+}
+.formContacto {
+    line-height: 2.5em;
+    
+}
+.spanContacto {
+    color: rgb(73, 12, 11);
+}
+
+@mixin marg($margen){
+    margin: $margen;
+}
+.margenesP{
+    @include marg(0.6em);
+    font-family: "quicksand"
+    
+}
+.textareasP {
+    @extend .margenesP;
+    width: 90%;
+    height: 10em;
+    border-radius: 1.3em;
+
+    
+}
+.boton__contacto{
+    background-color: white;
+    font-weight: bold;
+    transition: all 500ms ease ;
+}
+.boton__contacto:hover {
+    background-color: black;
+    color: white;
+}
+
+.formulario__contacto {
+    border-top: 0.6rem solid black;
+    border-left: 0.2rem double black;
+    border-right: 0.2rem double black;
+    border-bottom: 0.1rem solid black;
+    margin: 21em;
+    padding: 2.1em;
+    background-color: #273850;
+    }
+
+    .formulario__contacto .input__form input,
+    .formulario__contacto .input__form label {
+        background: none;
+    border: none;
+    outline: none;
+    color: white;
+    }
+    .formulario__contacto .input__form input {
+        border-bottom: 1px solid white;
+    }
+
+    @media screen and(max-width: 576px) {
+        .formulario__contacto {
+            border-top: 0.6em solid black;
+            border-left: 0.2em double black;
+            border-right: 0.2em double black;
+            border-bottom: 0.1em solid black;
+            margin: 3em;
+            padding: 2.1em;
+            
+            
+            };
+            .formulario__contacto .input__form input,
+            .formulario__contacto .input__form label {
+                background: none;
+            border: none;
+            outline: none;
+            color: white;
+            }
+            .formulario__contacto .input__form input {
+                border-bottom: 1px solid white;
+            }
+        
+    }
+    @media screen and(min-width: 576px) {
+        .formulario__contacto {
+            border-top: 0.6em solid black;
+            border-left: 0.2em double black;
+            border-right: 0.2em double black;
+            border-bottom: 0.1em solid black;
+            margin: 10.6em;
+            padding: 2.1em;
+            
+            
+            };
+            .formulario__contacto .input__form input,
+            .formulario__contacto .input__form label {
+                background: none;
+            border: none;
+            outline: none;
+            color: white;
+            }
+            .formulario__contacto .input__form input {
+                border-bottom: 1px solid white;
+            }
+        
+    }
+    @media screen and(min-width: 992px) {
+    .formulario__contacto {
+    border-top: 0.6rem solid black;
+    border-left: 0.2rem double black;
+    border-right: 0.2rem double black;
+    border-bottom: 0.1rem solid black;
+    margin: 21em;
+    padding: 2.1em;
+    
+    
+    };
+    .formulario__contacto .input__form input,
+    .formulario__contacto .input__form label {
+        background: none;
+    border: none;
+    outline: none;
+    color: white;
+    }
+    .formulario__contacto .input__form input {
+        border-bottom: 1px solid white;
+    }
+}

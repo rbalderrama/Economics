@@ -1,0 +1,41 @@
+.subtituloAutores {
+    margin-top: 2em;
+    margin-left: 0.4em;
+    color: $blanco;
+    font-weight: bold;
+    }
+    
+    .btnn {
+        margin-left: 30px;
+        font-size: 1em;
+    }
+    .imgAutores {
+        width: 100%;
+        max-width: 35em;
+    }
+    .card__autorImg {
+        width: 100%;
+        height: 16em;
+        border-radius: 15px;
+        max-width: 17em;  
+    }
+    .card__autor {
+        max-width: 85%;
+        transition: all 2200ms ease;
+    }
+    .card__autor:hover {
+    max-width: 100%;
+    }
+    .biografias {
+        text-decoration: none;
+        color: rgb(12, 18, 104);
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .breve {
+        color: white;
+    }
+    .letra {
+        font-size: 1em;
+        font-weight: bold;
+    }
